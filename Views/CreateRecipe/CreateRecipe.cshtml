@@ -1,0 +1,43 @@
+@using lab2.Controllers
+@{
+    ViewData["Title"] = "Create Recipe";
+}
+
+<!DOCTYPE html>
+
+
+<head>
+    <title>title</title>
+</head>
+<body>
+<div>
+    <form action="CreateNewRecipe" method="post">
+        <div style="background-color:#D8FFBA;position: absolute">
+            <strong>Recipe Name--> </strong>
+            <input type="text" name="recipeName" placeholder="Recipe Name"/>
+        </div>
+
+        <br>
+        <br>
+
+
+        <div style="background-color:#D8FFBA;position: absolute">
+            <strong>Recipe Ingredients(Add with amount and unit and separated by commas)</strong>
+        </div>
+        <br>
+        <textarea name="areaIngredients" cols="20" rows="10" runat="server"></textarea>
+        <br>
+
+
+        <div style="background-color:#D8FFBA;position: absolute">
+            <strong>Recipe Steps(Separated by commas)</strong>
+        </div>
+
+
+        <textarea name="areaSteps" cols="20" rows="10" runat="server"></textarea>
+
+        <input type="submit" value="Save recipe">
+
+    </form>
+</div>
+</body>

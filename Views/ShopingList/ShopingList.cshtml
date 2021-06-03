@@ -1,0 +1,31 @@
+@using lab2.Controllers
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div>
+    <br>
+    @using (Html.BeginForm())
+    {
+        <div>
+            <table class="tables">
+                @for (int i = 0; i < ViewBag.shopingRecipes.Count; i++)
+                {
+                    <tr>
+                        <th>
+                            <label> @ViewBag.shopingRecipes[i].Name</label>
+                        </th>
+                        <th><pre></pre></th>
+                        <th>
+                            <input width="40px" name="selectedRecipes" type="number" value="0" min="0"/>
+                        </th>
+                    </tr>
+                }
+            </table>
+            
+            </div>
+            <input class="button"  type="submit" name="submitButton" value="Show ingredients"/>
+    }
+    
+</div>

@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/javi/git/EGUI/egui21l-alvarezdecelis-franciscojavier/lab2/lab2.csproj": {}
+  },
+  "projects": {
+    "/home/javi/git/EGUI/egui21l-alvarezdecelis-franciscojavier/lab2/lab2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/javi/git/EGUI/egui21l-alvarezdecelis-franciscojavier/lab2/lab2.csproj",
+        "projectName": "lab2",
+        "projectPath": "/home/javi/git/EGUI/egui21l-alvarezdecelis-franciscojavier/lab2/lab2.csproj",
+        "packagesPath": "/home/javi/.nuget/packages/",
+        "outputPath": "/home/javi/git/EGUI/egui21l-alvarezdecelis-franciscojavier/lab2/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/javi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "HtmlElements": {
+              "target": "Package",
+              "version": "[4.0.0-alpha, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Syncfusion.EJ2.AspNet.Core": {
+              "target": "Package",
+              "version": "[19.1.0.58, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/5.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

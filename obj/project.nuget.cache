@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "QoI6iqFbWzSwa+yoP2rnwaRG3OfCV1OWbPFu/p3PWFwhpqxcX1HRX7IN+1uyY7oHm8ArzkRaCNlpuG3GRnFJcA==",
+  "success": true,
+  "projectFilePath": "/home/javi/git/EGUI/egui21l-alvarezdecelis-franciscojavier/lab2/lab2.csproj",
+  "expectedPackageFiles": [
+    "/home/javi/.nuget/packages/dotnetseleniumextras.pageobjects/3.11.0/dotnetseleniumextras.pageobjects.3.11.0.nupkg.sha512",
+    "/home/javi/.nuget/packages/htmlelements/4.0.0-alpha/htmlelements.4.0.0-alpha.nupkg.sha512",
+    "/home/javi/.nuget/packages/microsoft.build.tasks.git/1.0.0/microsoft.build.tasks.git.1.0.0.nupkg.sha512",
+    "/home/javi/.nuget/packages/microsoft.sourcelink.common/1.0.0/microsoft.sourcelink.common.1.0.0.nupkg.sha512",
+    "/home/javi/.nuget/packages/microsoft.sourcelink.github/1.0.0/microsoft.sourcelink.github.1.0.0.nupkg.sha512",
+    "/home/javi/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/home/javi/.nuget/packages/selenium.support/4.0.0-alpha07/selenium.support.4.0.0-alpha07.nupkg.sha512",
+    "/home/javi/.nuget/packages/selenium.webdriver/4.0.0-alpha07/selenium.webdriver.4.0.0-alpha07.nupkg.sha512",
+    "/home/javi/.nuget/packages/syncfusion.ej2.aspnet.core/19.1.0.58/syncfusion.ej2.aspnet.core.19.1.0.58.nupkg.sha512",
+    "/home/javi/.nuget/packages/syncfusion.licensing/19.1.0.58/syncfusion.licensing.19.1.0.58.nupkg.sha512"
+  ],
+  "logs": []
+}

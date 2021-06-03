@@ -1,0 +1,38 @@
+﻿@using lab2.Controllers
+@using Syncfusion.EJ2
+@using Syncfusion.EJ2.Lists
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<br>
+@using (Html.BeginForm("MyAction", "Home", FormMethod.Post))
+{
+    
+    <div  class="divLeft">
+        <table class="tables">
+            @for (int i = 0; i < ViewBag.recipes.Count; i++)
+            {
+                <tr>
+                    <th>
+                        <label> @ViewBag.recipes[i].Name</label>
+                    </th>
+
+                    <th>-----------------------------------------</th>
+
+                    <th>
+                    <input name="selectedRecipes" type="checkbox" value="@ViewBag.recipes[i].Name"/>
+
+                    <th>
+                </tr>
+            }
+        </table>
+    </div>
+    <div class="divRight">
+        <input  class="button" type="submit" name="submitButton" value="Edit"/>
+        <br>
+        <br>
+        
+        <input class="button" type="submit" name="submitButton" value="Delete"/>
+    </div>
+}
